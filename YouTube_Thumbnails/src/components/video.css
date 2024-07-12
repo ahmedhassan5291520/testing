@@ -1,0 +1,38 @@
+/* Video.css */
+.video-container {
+    display: flex;
+    flex-wrap: wrap; /* Key change: enables wrapping to multiple rows */
+    margin-bottom: 20px;
+  }
+  
+  .video-wrapper {
+    width: 100%;  /* Adjust width as needed for different thumbnail sizes */
+    position: relative;
+  }
+  
+  video {
+    object-fit: cover;
+  }
+  
+  .video-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .video-thumbnail {
+    width: calc(33.33% - 10px); /* Adjust width and margin for 3 thumbnails in a row */
+    
+    width:100%;
+    margin-right: 10px;
+    border-radius: 6px; /* Add rounded corners */
+    object-fit: cover;
+  }
+  
+  .video-details {
+    flex: 1;
+  }
+  
+  .video-title {
+    margin-bottom: 5px;
+  }
+  
